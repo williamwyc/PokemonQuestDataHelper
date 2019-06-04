@@ -1,0 +1,22 @@
+<!--pages/pm/pm.wxml-->
+<view class='table'>
+  <view class="tr bg-w">
+    <image class="th" src='../img/{{pm.id}}.png' style='width: 64px; height: 64px; border: 0.001em solid #8E8E8E; border-radius: 8px;'></image>
+    <text class='name th'>{{pm.cname}}\n{{pm.name}}</text>
+  </view>
+</view>
+<view class='seperator'>
+  <image src='../img/Seperator.png' mode="aspectFill" style='height: 1px; width: 100%;'></image>
+</view>
+<view wx:for="{{pm.food}}" wx:for-index="index" wx:for-item="value" >
+  <text class='foodName'>{{foodCname[index]}}</text>
+  <view wx:for="{{value.info}}" wx:for-index="infoIndex" wx:for-item="info" >
+    <button bindtap='tapQuality' data-quality="{{info.quality}}" data-types="{{value.types}}" data-cname="{{foodCname[index]}}" class='qrBTN'>
+      <text>品质: {{info.quality}} </text>
+      <text>概率: {{info.rate}}</text>
+    </button>
+  </view>
+  <view class='seperator'>
+    <image src='../img/Seperator.png' mode="aspectFill" style='height: 1px; width: 100%;'></image>
+  </view>
+</view>

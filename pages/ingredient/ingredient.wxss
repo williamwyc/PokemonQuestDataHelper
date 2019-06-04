@@ -1,0 +1,68 @@
+/* pages/ingredient/ingredient.wxss */
+
+.table {
+  margin-top: 0.5rem;
+  padding: 10px 0;
+  border: 0px solid darkgray;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  background-color: #fdf0d2;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: transparent;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th {
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  justify-content: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 0.22rem 0.7rem;
+}
+
+.itemImage {
+  width: 1.27rem;
+  height: 1.27rem;
+  margin: 0 1px;
+}
+
+page {
+  background-color: #fdbb32;
+}
+
+.seperator {
+  justify-content: center;
+  margin: 0 1em;
+}
+
+.nq {
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-family: Avenir, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.15rem;
+}
+
+.font {
+  font-family: Avenir, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

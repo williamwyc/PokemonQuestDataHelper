@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pm/pm",
+    "pages/ingredient/ingredient",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fdbb32",
+    "navigationBarTitleText": "方可梦数据查询系统",
+    "navigationBarTextStyle":"black"
+  }
+}

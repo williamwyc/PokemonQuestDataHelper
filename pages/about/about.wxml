@@ -1,0 +1,12 @@
+<!--pages/about/about.wxml-->
+<view class='container'>
+  <view wx:for="{{updateList}}" class="updateList" wx:for-item="update" wx:key="unique">
+    <view class="info">{{ update.info }}</view>
+    <view class="version">Ver {{ update.version }}</view>
+  </view>
+  <text class='devp'>Developers</text>
+  <text class='author'>Yichun Wu</text>
+  <text class='author'>Yifan Wang</text>
+  <text class='devp'>Contact</text>
+  <text class='author'>435983252@qq.com</text>
+</view>

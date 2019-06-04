@@ -1,0 +1,60 @@
+/* pages/pm/pm.wxss */
+
+.table {
+  border: 0px solid darkgray;
+  margin-top: 1rem;
+  background-color: #fdbb32;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  margin-left: 1rem;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: transparent;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  justify-content: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.name {
+  text-align: left;
+  font-weight: bold;
+  font-family: Avenir, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seperator {
+  justify-content: center;
+  margin: 0 1em;
+}
+
+page {
+  background-color: #fdbb32;
+}
+
+.foodName {
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+
+.qrBTN {
+  margin: 5px 10%;
+  background-color: #feeac1;
+}
